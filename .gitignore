@@ -1,0 +1,5 @@
+# Lokale Vorschau und Prüfdateien
+.preview/
+.codex-trash/
+.DS_Store
+Thumbs.db
