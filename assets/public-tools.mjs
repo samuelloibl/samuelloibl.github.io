@@ -44,13 +44,19 @@ export async function loadPublicData(kind) {
     return { publications, publicationsUrl: canonical(page), bibliographyDate: locale === "de" ? "Jänner 2026" : "January 2026" };
   }
   const page = await readPage(homePath, ".intro-copy");
-  const projects = [...page.querySelectorAll("#projekte .entry")].map(entry => ({
-    name: text(entry.querySelector(".entry-title")),
-    description: text(entry.querySelector(".entry-description")),
-    url: absolute(entry.querySelector(".entry-title a").getAttribute("href"))
-  }));
+  const projects = [...page.querySelectorAll("#projekte .entry")].map(entry => {
+    const link = entry.querySelector(".entry-title a");
+    const status = text(entry.querySelector(".entry-status"));
+    return {
+      name: text(entry.querySelector(".entry-title")),
+      description: text(entry.querySelector(".entry-description")),
+      ...(link ? { url: absolute(link.getAttribute("href")) } : {}),
+      ...(status ? { status } : {})
+    };
+  });
   const profile = {
     displayName: text(page.querySelector("#intro-title")),
+    location: text(page.querySelector(".location-value")),
     url: canonical(page),
     language: locale,
     about: text(page.querySelector(".intro-copy .lead")),

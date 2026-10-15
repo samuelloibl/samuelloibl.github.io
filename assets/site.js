@@ -28,7 +28,7 @@ async function registerBrowserTools() {
   lifecycle = new AbortController();
   try {
     const [{ createTools }, { loadPublicData }] = await Promise.all([
-      import("./model-tools.mjs"), import("./public-tools.mjs")
+      import("./model-tools.mjs"), import("./public-tools.mjs?v=profile-3")
     ]);
     for (const tool of createTools(loadPublicData)) {
       await registry.registerTool(tool, { signal: lifecycle.signal });
