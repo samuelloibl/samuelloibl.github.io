@@ -1,0 +1,6 @@
+# Search engines and AI search services may crawl the public site.
+# Public content is intentionally discoverable. Keep private files unpublished.
+User-agent: *
+Allow: /
+
+Sitemap: https://samuelloibl.github.io/sitemap.xml
