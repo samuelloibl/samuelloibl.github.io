@@ -506,7 +506,7 @@ main { flex: 1; }
   .timeline + .education-note { padding-left: 0; }
   .site-header { padding-block: var(--s-4) var(--s-2); }
   .site-header.has-wordmark { flex-wrap: wrap; row-gap: 0; }
-  .site-header.has-wordmark nav { flex-basis: 100%; margin-left: 0; justify-content: flex-start; }
+  .site-header.has-wordmark nav { flex-basis: 100%; margin-left: 0; }
   .site-header nav { align-items: center; column-gap: var(--s-3); }
   .language-switch { align-items: center; gap: 0; margin-left: 0; padding-left: var(--s-2); }
   .theme-toggle { flex: 0 0 2.75rem; margin-inline: 0 -0.5rem; }
