@@ -1,0 +1,326 @@
+{
+  "reference_date": "2026-10-21",
+  "task_source": {
+    "benchmark": "BenGER, German law",
+    "task_text": "Original case text, questions and embedded instructions",
+    "baseline_prompt_checked_count": 10,
+    "original_source_sha256": "e7cd6d4bbdbcf6bcecaf15c18056c879a6cc5511b8fec5ef0311b0563892b0e3"
+  },
+  "guarded_cases": {
+    "1": {
+      "new_finding": "Die Direktantwort stützte die Nacherfüllung auf § 327l BGB, allerdings mit falschem Absatz, die Vertragsbeendigung auf § 327m BGB und die Rückzahlung auf § 327o BGB. Harness² legte in Runde 1 eine Prüftabelle an, in der die Inhalte gegenüber den Paragraphennummern verschoben waren. Die Nacherfüllung stand bei § 327j BGB, der die Verjährung regelt, die Vertragsbeendigung bei § 327k BGB, der die Beweislast regelt. Runde 2 überarbeitete die Tabelle, die Verschiebung blieb. Die ausgewählte Antwort aus Runde 2 übernahm diese Zuordnungen. Sie erhielt 74 statt 63 Punkte, vor allem für das besser begründete Ergebnis zum Erstattungsbetrag. Astra beanstandete die falschen Normzuordnungen. Die freie Eigenkorrektur erhielt 68 Punkte. Für den Schadensersatz nannte sie § 327i Nr. 4 BGB, obwohl die Vorschrift nur drei Nummern hat.",
+      "sources": [
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-agg3\\case-1\\base1\\answer.txt",
+          "sha256": "75920eaab77c5767905f2b8791d067b32ab04d2e7d9921d09eea1deaf56c759b"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-1\\harnesses\\c1\\LongTermMEMORY.md",
+          "sha256": "02e92c6fcca864114d54a070ac1800536da2051309982698525d4fb050736317"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-1\\harnesses\\c2\\LongTermMEMORY.md",
+          "sha256": "12cc619e5f501c7a833d2325224caf803740f61c0e81fec4d2061ff909976d71"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-1\\c1\\answer.txt",
+          "sha256": "bf178036740baf85dc7ae748fc13874cc64249ad76f1ad5d887f0193d026c256"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-1\\c2\\answer.txt",
+          "sha256": "c4da34f9a7475c6e5d060c8f8e54dfc32c7a082a4ae111a900c9caa6f637e410"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0001\\first-assessment\\answer.txt",
+          "sha256": "2c934482d17ce170a3af9c4a3020760731f76acffcd9a03921a7856efd038d77"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0002\\first-assessment\\answer.txt",
+          "sha256": "632b28cb80d36286692cd0b8d46e191ac82c3ce657c0715852bdf188e7d42ffc"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0003\\first-assessment\\answer.txt",
+          "sha256": "f0dab1dc08761fc0f7270ccc2722bcc472d3a2af5fde10e8ab26773a7a7e8e74"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\control\\case-1\\revision-3\\answer.txt",
+          "sha256": "13970d992f504b1e72f7836e8edde4b2afca81e38390203e426d7ec7d3b02f10"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0001\\first-assessment\\answer.txt",
+          "sha256": "03a465521517b6c14a6d662206aa28f71823a41d55f9af60555393c1f0f6e125"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0002\\first-assessment\\answer.txt",
+          "sha256": "930a0cf9c651829a268fb6b8e629735d725d7043ae95fee72ca51854a7435f21"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-1\\reflection\\seq3\\decisions\\c1.md",
+          "sha256": "02ef3c597c078466e2347ada8ad22447a11e52fb1412cb5063948c333c3f9390"
+        }
+      ]
+    },
+    "4": {
+      "new_finding": "Die Direktantwort trennte den späteren Missbrauch der Vollmacht von einem Irrtum bei ihrer Erteilung. Die freie Eigenkorrektur führte diesen Ansatz weiter aus und ergänzte Auslegungs- und Hilfserwägungen zur Reichweite der Vollmacht. Die Punkte lagen bei 76 für die Direktantwort, 82 für die ausgewählte Harness-Antwort und 87 für die freie Eigenkorrektur. Das Ergebnis blieb in allen Fassungen gleich.",
+      "sources": [
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-agg3\\case-4\\base1\\answer.txt",
+          "sha256": "f4c3b3f74103dd0fe2fb9664755891ef35a37eb5e56003d79fa14fc15485f57a"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-4\\c2\\answer.txt",
+          "sha256": "28ad9e9536f12ec98b11db74681d25c54346b27849b577cd8473fcaadb4040df"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0010\\first-assessment\\answer.txt",
+          "sha256": "f99fd10a582bd41f5437ba89e665aee20533995c45a3373582941d81804adc6a"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0011\\first-assessment\\answer.txt",
+          "sha256": "fcf4e5daf358a21a643946786644d140c271c04f8b7dee5ac51151358aa6555c"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0012\\first-assessment\\answer.txt",
+          "sha256": "b2fa7c700d4ec6f14d33a18e0df9af61059afe4082635dd51a73c8c2a429b37a"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\control\\case-4\\revision-3\\answer.txt",
+          "sha256": "0e3869db8af3d155d4743a1f82c0888488b5b31da64ff99a664f65d2b93ff511"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0007\\first-assessment\\answer.txt",
+          "sha256": "92bf893eef734743e063b1f45dfe375a579616ef27ddf2773ad9f3a12b7d003e"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0008\\first-assessment\\answer.txt",
+          "sha256": "f102f0e3cd732dc6b24193ea62efb7c62cce1025951200fe6097d26e3dc87a75"
+        }
+      ]
+    },
+    "10": {
+      "new_finding": "Die drei Harness-Fassungen erhielten 73, 67 und 67 Punkte. Ausgewählt wurde die zweite. Diese verneinte eine versuchte Nötigung pauschal, nachdem sie eine versuchte Freiheitsberaubung abgelehnt hatte. Die erste Fassung hatte die versuchte Nötigung noch ausdrücklich geprüft. Astra beanstandete außerdem Lücken bei der gefährlichen Körperverletzung. Die freie Eigenkorrektur prüfte den Nötigungsversuch in einem eigenen Abschnitt. Astra gab ihr 74 Punkte, bemängelte aber unter anderem ihre Rücktrittsbewertung und die Begründung des Trunkenheitsvorsatzes.",
+      "sources": [
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-10\\c1\\answer.txt",
+          "sha256": "e18b68bb0698b3b22effdcaabd949d755575e41b0e4ac28e858e0ac168010a75"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-10\\c2\\answer.txt",
+          "sha256": "16b2809be33493b8e479bb8712ae0b4494e3c811f467bddffb08e360b0789b6d"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-10\\c3\\answer.txt",
+          "sha256": "bf1d2e7cec05fbebdfe3fa532f874ced736c47c781bd55141261e52361d2d041"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0028\\first-assessment\\answer.txt",
+          "sha256": "0dfa89ff72540760c3494cd3bd60114cd37de47e0e51a2da43db7f8a79179b2a"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0029\\first-assessment\\answer.txt",
+          "sha256": "309d8a5932ed7b31c294a39a02bdf406d3c73f6dfb9749f735f54073eb6391fc"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0030\\first-assessment\\answer.txt",
+          "sha256": "54a7e18e0b260bc7c07ff6fc8bb010a614901c35ed1b7bec14f5e87a943997f9"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\control\\case-10\\revision-3\\answer.txt",
+          "sha256": "de35b86a2b0e433d28d1ec4c4b6e14e4dc68a48b251d6a98dcbbe752f4e0823f"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0019\\first-assessment\\answer.txt",
+          "sha256": "08ea6381d428c60214a8e0d7fac0bdd3ba6b13667d915cfea1943ebb5a14f832"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0020\\first-assessment\\answer.txt",
+          "sha256": "6fdf55c61b49552caf399659892c828ec3ffed5a756dc3baa1155aeeea73bfe0"
+        }
+      ]
+    }
+  },
+  "guarded_source_hashes": {
+    "terra-harness-k3-fixed-de-v3\\completion-audit.json": "98562b9c0b0a1db5a90d9aef1510e700ccd69387dab238cc1fc2056875b866d1",
+    "terra-control3-fixed-de-v1\\completion-audit.json": "4dc8bdf31c5600adea75ed0e8af2959175b70cbc22992cf464f24c1b5ec3732f",
+    "terra-harness-k3-fixed-de-v3\\scores.json": "b98a8c9f047336a2f786faa5e72acf71baf6e4b38405bda19934e037063e9d0b",
+    "terra-control3-fixed-de-v1\\scores.json": "b97ab96bd7ac6c62af205b7497c92081840d21d1c6a066ade1dbc36bebf26e6d"
+  },
+  "historical_source_audit": {
+    "status": "verified",
+    "rubric_sha256": "15e58b9776b39596c72adc7974f71b236f3124334fa5c5821421980b2d6b32f6",
+    "runs": [
+      {
+        "run": "terra-ten-v1",
+        "grades_checked": 30,
+        "baseline_mean": 68.2,
+        "scores_sha256": "bb1dd45154190ddf01fe37e07ba3ff5800dccbdba59ecfb6ad1dc72dbf6a5a04"
+      },
+      {
+        "run": "terra-sequential-k3-control3-v2",
+        "grades_checked": 50,
+        "baseline_mean": 75.8,
+        "scores_sha256": "9ae29893ef518e861525bf8f00289ad246ce3b49243600e1ac63c07cdb5506d1"
+      },
+      {
+        "run": "sol61-medium-direct-ten-v1",
+        "grades_checked": 10,
+        "baseline_mean": 89.9,
+        "scores_sha256": "55f79cc9c78a8356729271afb57f08be7e1b44076b7c113dc1ac180dc5447403"
+      }
+    ],
+    "syntax_exceptions": [
+      {
+        "run": "terra-sequential-k3-control3-v2",
+        "evaluation_id": "eval-0023",
+        "amendment_sha256": "b89908aecf736d708e700a5323c1980c447e93481ad4c69c93c6441d743341d6",
+        "original_sha256": "d44adffd2b5ac36f38de01029e6053f6ab06bd3cbdcc36590e4bb2bd07627818",
+        "normalized_sha256": "1bf7249ffd2275c405011b1780630d24abd873941af5301af3888d048fdd25c4",
+        "inserted_text": "]\n"
+      }
+    ],
+    "grades_checked": 90,
+    "new_model_calls": 0
+  },
+  "new_trial_audit": {
+    "harness2": {
+      "completion_fingerprints": 9813,
+      "generation_fingerprints": 9476,
+      "inference_records": 261,
+      "isolation_flags_and_no_tool_calls_verified": true
+    },
+    "control3": {
+      "completion_fingerprints": 783,
+      "generation_fingerprints": 557,
+      "inference_records": 80,
+      "isolation_flags_and_no_tool_calls_verified": true
+    }
+  },
+  "control_example_review": {
+    "reviewed_utc": "2026-10-21T11:19:52.555160+00:00",
+    "cases_read": [
+      1,
+      4,
+      6,
+      10
+    ],
+    "full_human_legal_review": false,
+    "scope": "Frozen final answers, the case6 shared draft and final Astra assessments read by the coordinator; no new grades assigned.",
+    "frozen_answers_sha256": "dd96db55574af9246963bca5a1a1aa14c602605c95c7dc05c90c60fc1336800a",
+    "control_scores_sha256": "b97ab96bd7ac6c62af205b7497c92081840d21d1c6a066ade1dbc36bebf26e6d",
+    "observations_sha256": "6c4d299b880dd9e8a4ff1fd1c80f7da3c3cd1f497c8c83571fb2b4219039d243"
+  },
+  "guarded_additional_findings": {
+    "selection": {
+      "finding": "Harness² gab in Fall 6 die Antwort aus Runde 2 als Endergebnis aus. Diese erhielt 53 Punkte. Die Antworten aus Runde 1 und 3 erhielten 73 und 74 Punkte.",
+      "detail": "Die gewählte Antwort hielt den Anspruch für nach § 861 Abs. 2 BGB ausgeschlossen, weil die Eigentümerin zum Besitz berechtigt sei. Die Vorschrift fragt aber, ob der entzogene Besitz gegenüber der Entzieherin fehlerhaft war. Runde 2 erhielt wortgleich dieselbe Eingabe wie Runde 1. Runde 3 ergänzte eine zutreffende Regel zu § 861 Abs. 2 BGB in den Arbeitsanweisungen. Der Auswahlschritt erhielt diese Regel nicht und erklärte in seiner Begründung die falsche Lesart für richtig. Die freie Eigenkorrektur blieb bei der richtigen Lösung der Direktantwort und erhielt 76 Punkte.",
+      "sources": [
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-6\\c1\\answer.txt",
+          "sha256": "7a2be47a103990c213b04abbcf65305983cfc98a70d640ede37b7db9a752f554"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-6\\c2\\answer.txt",
+          "sha256": "aae6bf743c1a6c3a4d4df152ddc54fe371c01ddd4ef67112a3e6070854588e96"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-6\\c3\\answer.txt",
+          "sha256": "e1f9ac0d4acc2260032606ab77ed47ed433eeacdbbd4fb6f3ece8b411bb6fb3d"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-agg3\\case-6\\summary.json",
+          "sha256": "28265b7f68b0bd7eaaa165152ee7971259943770c366cce268171e67b8dd955e"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0016\\first-assessment\\answer.txt",
+          "sha256": "8df8366b993d9c0694707aa40639fe4f401e364a976e442da5992203abc6c597"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0017\\first-assessment\\answer.txt",
+          "sha256": "98e17a35090e22a20aa2e2d72585e73bf1dc319b2aa85e2a5ac565257af638f9"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0018\\first-assessment\\answer.txt",
+          "sha256": "7aeb603373ec9473fe2a881e561ad87c25e8ef26417ac75dc5e030aaa45e6bda"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\control\\case-6\\revision-3\\answer.txt",
+          "sha256": "30adf774636f6c3b240cb3f93b6dfc5d4815d92aa57c82e9ca563ff0c921b7f2"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0011\\first-assessment\\answer.txt",
+          "sha256": "4c28d72b0909776c6eb80f3513204faca0f1a98a8cf7cec9116790239c450ba2"
+        },
+        {
+          "file": "terra-control3-fixed-de-v1\\assessments\\eval-0012\\first-assessment\\answer.txt",
+          "sha256": "3b3364dc463a676d18629e4820c9407677c6db2fc0f7fe726f36e7e92fdb1d70"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-agg3\\case-6\\base1\\answer.txt",
+          "sha256": "35fc6b7d9c1590ebaaffc4bd736f61b1d47894a760a3987512623f5e751b4434"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-6\\c1\\worker\\input.txt",
+          "sha256": "6fdb02aa895578eeb061e96e8572aabc47b91bf72eeac5151be18fb0f32f50a8"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-6\\c2\\worker\\input.txt",
+          "sha256": "6fdb02aa895578eeb061e96e8572aabc47b91bf72eeac5151be18fb0f32f50a8"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-6\\harnesses\\c3\\LongTermMEMORY.md",
+          "sha256": "edb96c900dc95ca2bc76c0a459994f46f15911dfecfc52c3fb2339eda6e4dab2"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-6\\selection\\model-calls\\seq3-select.seq3\\worker\\input.txt",
+          "sha256": "1b73942a53d15907124114fd01cf19c1302a776968c1ef0d22d3cf80eb443346"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-6\\selection\\seq3\\selection.json",
+          "sha256": "7a0bbd8f5b7b25da525f00800ce82c7809dd169a1d9a3827efab936364d9a924"
+        }
+      ]
+    },
+    "unchanged_instructions": {
+      "finding": "Bei Fall 2 stiegen die Harness-Antworten von 75 über 84 auf 86 Punkte. Bereits die zweite ergänzte eine zuvor fehlende Prüfung zur Baugenehmigung; die dritte behielt sie bei. Die gespeicherten Arbeitsanweisungen waren in allen drei Runden identisch. Hier entstand also eine besser bewertete Antwort ohne neue Regeln.",
+      "detail": "",
+      "sources": [
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-2\\c1\\answer.txt",
+          "sha256": "9de8e7ca5a344af0671c30e87890f289776e7b76c68da9c4a4dfa35975d9e4cd"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-2\\c2\\answer.txt",
+          "sha256": "244c90c162b2c97a8ce5822ff39583e19d55f1826948d20248d9ae1b08b7a793"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\executions\\benger-text-seq3\\case-2\\c3\\answer.txt",
+          "sha256": "e664d7377ebb028850a7172151ca3762593a8ac7f866bf3316c6d4650e74632b"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0004\\first-assessment\\answer.txt",
+          "sha256": "52b0eb4295b93d8e021eb4021f9f9fe020ba9686aab2eb1b1d1d474baed378d2"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0005\\first-assessment\\answer.txt",
+          "sha256": "9af9953497b71b808e34cb41db729bbf7a5d51a3d418771a5e32a20d6ec91e47"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\assessments\\eval-0006\\first-assessment\\answer.txt",
+          "sha256": "a29c939e40b49f05ae9c3a691d06cd80ac8a71a92c3eea6a5df4426d70eae328"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-2\\harnesses\\c1\\LongTermMEMORY.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-2\\harnesses\\c2\\LongTermMEMORY.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "file": "terra-harness-k3-fixed-de-v3\\runs\\benger-text-seq3\\case-2\\harnesses\\c3\\LongTermMEMORY.md",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    }
+  }
+}
